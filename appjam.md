@@ -74,7 +74,7 @@ email check
 
 id : number
 
-userid: number
+useremail: number
 
 content: String
 
@@ -89,7 +89,7 @@ created: TimeStamp
 * Request
 
 ```
-userid : number,
+useremail : String,
 content : Stirng
 ```
 
@@ -168,7 +168,7 @@ created TimeStamp
 
 ```
 bungeid : number,
-userid : number,
+useremail : String,
 content : String
 ```
 
